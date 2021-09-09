@@ -4,11 +4,13 @@ import './index.css';
 import ABasic from './formExamples/ABasic';
 import BMaterialUI from './formExamples/BMaterialUI'
 import reportWebVitals from './reportWebVitals';
+import CYup from "./formExamples/CYup";
 
 ReactDOM.render(
   <React.StrictMode>
     {/*<ABasic />*/}
-    <BMaterialUI />
+    {/*<BMaterialUI />*/}
+      <CYup />
   </React.StrictMode>,
   document.getElementById('root')
 );
